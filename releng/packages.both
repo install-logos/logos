@@ -22,6 +22,7 @@ grml-zsh-config
 grub
 haveged
 hdparm
+i3
 intel-ucode
 ipw2100-fw
 ipw2200-fw
@@ -46,6 +47,7 @@ pptpclient
 rfkill
 rp-pppoe
 rsync
+rxvt-unicode
 smartmontools
 speedtouch
 sudo
@@ -58,5 +60,8 @@ wireless_tools
 wpa_actiond
 wvdial
 xl2tpd
+xorg-init
+xorg-server
+xorg-server-utils
 zd1211-firmware
 zsh
