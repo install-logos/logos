@@ -4,7 +4,7 @@
       height="38"
       width="38">
 </sub>
-uBlock
+lo/g/os
 </h1>
 <p align="center">
 <sup>
