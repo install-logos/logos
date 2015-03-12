@@ -18,5 +18,5 @@ Since [the old repo](https://github.com/Gent00man/logos) is not tended, we will 
 
 #What is it?
 * a Unix-like OS developed by /g/
-* based on Debian
-* ships with pre-configured packages and riced themes
+* Linux kernel
+* ships with pre-compiled packages
