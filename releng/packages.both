@@ -1,3 +1,4 @@
+alsa-utils
 arch-install-scripts
 b43-fwcutter
 btrfs-progs
@@ -17,7 +18,8 @@ elinks
 ethtool
 f2fs-tools
 feh
-firefox-nightly
+ffmpeg
+firefox
 fsarchiver
 gnu-netcat
 gpm
@@ -34,7 +36,10 @@ irssi
 lftp
 linux-atm
 mc
+mpd
+mpv
 mtools
+ncmpcpp
 nfs-utils
 nilfs-utils
 nmap
