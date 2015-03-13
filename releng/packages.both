@@ -3,7 +3,6 @@ arch-install-scripts
 b43-fwcutter
 btrfs-progs
 clonezilla
-compton
 crda
 darkhttpd
 ddrescue
@@ -74,7 +73,7 @@ wireless_tools
 wpa_actiond
 wvdial
 xl2tpd
-xorg-init
+xorg-xinit
 xorg-server
 xorg-server-utils
 zathura
