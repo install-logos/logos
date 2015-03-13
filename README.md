@@ -1,6 +1,6 @@
 <h1 align="center">
 <sub>
-<img  src="https://avatars3.githubusercontent.com/u/11442270"
+<img src="https://avatars3.githubusercontent.com/u/11442270"
       height="38"
       width="38">
 </sub>
