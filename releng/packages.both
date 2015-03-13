@@ -28,6 +28,7 @@ grub
 haveged
 hdparm
 i3
+imagemagick
 intel-ucode
 ipw2100-fw
 ipw2200-fw
@@ -56,6 +57,7 @@ ppp
 pptpclient
 python
 python2
+ranger
 rfkill
 rp-pppoe
 rsync
@@ -66,6 +68,7 @@ smartmontools
 speedtouch
 sudo
 tcpdump
+terminus-font
 testdisk
 usb_modeswitch
 vim-python3
