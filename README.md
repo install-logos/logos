@@ -16,6 +16,8 @@ lo/g/os
 
 Since [the old repo](https://github.com/Gent00man/logos) is not tended, we will assume it is deprecated.
 
+[Ricing guideline](https://github.com/install-logos/rice/wiki/logos-ricing-guideline)
+
 #What is it?
 * a Unix-like OS developed by /g/
 * Linux kernel
