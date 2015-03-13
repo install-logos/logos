@@ -1,0 +1,25 @@
+out_to_x no
+own_window no
+out_to_console yes
+background no
+max_text_width 0
+update_interval 1.0
+total_run_times 0
+short_units on
+if_up_strictness address
+use_spacer left
+override_utf8_locale no
+cpu_avg_samples 1
+
+# JSON arrays 
+
+TEXT
+
+# Just colored uptime, date and time for beggining discussion needed here what to add
+# Would like to see $cpugraph included here but for some reason i still cant make it working on my box
+
+[{"full_text": "Uptime $uptime_short", "separator": false, "separator_block_width":2, "color":"\#ecf0f1"},
+ {"full_text": "${time %m.%d.%Y}", "separator": false, "separator_block_width":2, "color":"\#d4d8d8"},
+ {"full_text": "${time %I:%M %P}", "separator": false, "separator_block_width":2, "color":"\#bcc0c0"}
+
+],
