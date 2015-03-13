@@ -1,8 +1,8 @@
 <h1 align="center">
 <sub>
-<p><a href="http://logos-linux.org/"><img src="https://avatars3.githubusercontent.com/u/11442270"
+<img src="https://avatars3.githubusercontent.com/u/11442270"
       height="38"
-      width="38"></a></p>
+      width="38">
 </sub>
 lo/g/os
 </h1>
