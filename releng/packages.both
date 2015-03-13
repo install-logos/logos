@@ -73,10 +73,14 @@ testdisk
 usb_modeswitch
 vim-python3
 vpnc
+w3m
 wget
 wireless_tools
 wpa_actiond
 wvdial
+xf86-video-ati
+xf86-video-intel
+xf86-video-nouveau
 xl2tpd
 xorg-xinit
 xorg-server
