@@ -39,6 +39,8 @@ mpd
 mpv
 mtools
 ncmpcpp
+networkmanager
+network-manager-applet
 nfs-utils
 nilfs-utils
 nmap
