@@ -1,0 +1,177 @@
+# vim:filetype=i3
+
+
+### i3-colors
+## unfinished/placeholder colors!
+
+#name                   #top    #border #text
+client.focused          #402e2e #978965 #402e2e #978965
+client.unfocused        #402e2e #402e2e #978965 #402e2e
+client.focused_inactive #402e2e #402e2e #978965 #402e2e
+client.urgent           #402e2e #402e2e #978965 #402e2e
+
+
+### Init i3bar and set colors
+bar {
+  status_command i3status -c ~/.i3/i3status.conf
+  strip_workspace_numbers yes
+
+  colors {
+	    statusline  #978965
+	    background  #1f1f1f
+
+      #name              #border #bg     #text
+	    focused_workspace  #978965 #402e2e #978965
+	    active_workspace   #402e2e #402e2e #978965
+	    inactive_workspace #402e2e #402e2e #978965
+	    urgent_workspace   #402e2e #402e2e #978965
+  }
+}
+
+### Floating Windows
+for_window [class="URxvt"] floating enable
+for_window [class="feh"] floating enable
+
+
+### Borderless Windows
+for_window [class="Firefox"] border none
+
+
+### 1pixel border Windows
+for_window [class="URxvt"] border 1pixel
+for_window [class="feh"] border 1pixel
+for_window [class="mpv"] border 1pixel
+for_window [class="Zathura"] border 1pixel
+
+
+### Modkey
+set $mod Mod4
+
+
+### Font
+font -*-terminus-*-*-*-*-*-*-*-*-*-*-*-*
+
+
+### Windowtype
+# none = no border, normal = default i3, 1pixel = 1pixel border
+bindsym $mod+Shift+x border none
+bindsym $mod+Shift+n border normal
+bindsym $mod+Shift+o border 1pixel
+
+
+### Keybind to move floating windows with the mouse cursor while holding
+floating_modifier $mod
+
+
+### urxvt keybind
+bindsym $mod+Return exec --no-startup-id urxvt
+
+
+### Kill window
+bindsym $mod+Shift+q kill
+
+
+### dmenu keybind
+bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
+
+
+### Scrot screenshot
+bindsym $mod+Shift+s exec "mkdir -p Pictures/Screenshots && scrot -q 100 Pictures/Screenshots/scrot.jpg"
+
+
+### Change window focus with arrow keys
+bindsym $mod+Left focus left
+bindsym $mod+Down focus down
+bindsym $mod+Up focus up
+bindsym $mod+Right focus right
+
+
+### Move focused window with arrow keys
+# mod+Shift+Arrows for short movements and mod+Control+Arrows for longer movements
+bindsym $mod+Shift+Left move left
+bindsym $mod+Shift+Down move down
+bindsym $mod+Shift+Up move up
+bindsym $mod+Shift+Right move right
+bindsym $mod+Control+Left exec "i3-msg move left && i3-msg move left && i3-msg move left && i3-msg move left && i3-msg move left"
+bindsym $mod+Control+Down exec "i3-msg move down && i3-msg move down && i3-msg move down && i3-msg move down && i3-msg move down"
+bindsym $mod+Control+Up exec "i3-msg move up && i3-msg move up && i3-msg move up && i3-msg move up && i3-msg move up"
+bindsym $mod+Control+Right exec "i3-msg move right && i3-msg move right && i3-msg move right && i3-msg move right && i3-msg move right"
+
+
+### Change window split into horizontal
+bindsym $mod+h split h
+
+
+### Change window split into vertical
+bindsym $mod+v split v
+
+
+### Fullscreen mode for focused window
+bindsym $mod+f fullscreen
+
+
+### Jump to urgent window
+bindsym $mod+u [urgent=latest] focus
+
+
+### Toggle tiling/floating mode
+bindsym $mod+Shift+space floating toggle
+
+
+### Toggle focus between tiling/floating windows
+bindsym $mod+space focus mode_toggle
+
+
+### Reload i3-config (~/.i3/config)
+bindsym $mod+Shift+c reload
+
+
+### Restart i3
+bindsym $mod+Shift+r restart
+
+
+### Exit i3
+bindsym $mod+Shift+e exec "i3-msg exit"
+
+
+### Lock i3
+bindsym $mod+Shift+l exec "~/bin/lock.sh"
+
+
+### Workspace variables - change the workspace labels here!
+set $WS1 term
+set $WS2 web
+set $WS3 media
+set $WS4 dev
+set $WS5 misc
+set $WS6 VI
+set $WS7 VII
+set $WS8 VIII
+set $WS9 IX
+set $WS10 X
+
+
+### Switch workspaces
+bindsym $mod+1 workspace $WS1
+bindsym $mod+2 workspace $WS2
+bindsym $mod+3 workspace $WS3
+bindsym $mod+4 workspace $WS4
+bindsym $mod+5 workspace $WS5
+bindsym $mod+6 workspace $WS6
+bindsym $mod+7 workspace $WS7
+bindsym $mod+8 workspace $WS8
+bindsym $mod+9 workspace $WS9
+bindsym $mod+0 workspace $WS10
+
+
+### Send focused container to workspace
+bindsym $mod+Shift+1 move container to workspace $WS1
+bindsym $mod+Shift+2 move container to workspace $WS2
+bindsym $mod+Shift+3 move container to workspace $WS3
+bindsym $mod+Shift+4 move container to workspace $WS4
+bindsym $mod+Shift+5 move container to workspace $WS5
+bindsym $mod+Shift+6 move container to workspace $WS6
+bindsym $mod+Shift+7 move container to workspace $WS7
+bindsym $mod+Shift+8 move container to workspace $WS8
+bindsym $mod+Shift+9 move container to workspace $WS9
+bindsym $mod+Shift+0 move container to workspace $WS10

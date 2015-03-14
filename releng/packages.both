@@ -19,6 +19,7 @@ f2fs-tools
 feh
 ffmpeg
 firefox
+fontconfig
 fsarchiver
 gnu-netcat
 gpm
@@ -28,6 +29,7 @@ grub
 haveged
 hdparm
 i3
+imagemagick
 intel-ucode
 ipw2100-fw
 ipw2200-fw
@@ -56,6 +58,7 @@ ppp
 pptpclient
 python
 python2
+ranger
 rfkill
 rp-pppoe
 rsync
@@ -66,14 +69,19 @@ smartmontools
 speedtouch
 sudo
 tcpdump
+terminus-font
 testdisk
 usb_modeswitch
 vim-python3
 vpnc
+w3m
 wget
 wireless_tools
 wpa_actiond
 wvdial
+xf86-video-ati
+xf86-video-intel
+xf86-video-nouveau
 xl2tpd
 xorg-xinit
 xorg-server
