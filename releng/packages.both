@@ -75,6 +75,7 @@ testdisk
 usb_modeswitch
 vim-python3
 virtualbox-guest-modules
+virtualbox-guest-utils
 vpnc
 w3m
 wget
