@@ -36,9 +36,3 @@ Lo/g/os offers a db full of custom themes: pre-configured packages installed wit
 **How do you propose we achieve this?**
 * The arch way: ***does exactly what it needs to, no extras, bloat, no choosing for the user***
 * Any ricable config is uploadable
-
-
-#What is it?
-* a Unix-like OS developed by /g/
-* Linux kernel
-* ships with pre-compiled packages
