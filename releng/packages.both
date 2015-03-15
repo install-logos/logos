@@ -28,6 +28,7 @@ grml-zsh-config
 grub
 haveged
 hdparm
+htop
 i3
 imagemagick
 intel-ucode

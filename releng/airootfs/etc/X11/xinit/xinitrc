@@ -1,0 +1,3 @@
+feh --bg-scale ~/.i3/wallpaper.png
+mpd &
+exec i3
