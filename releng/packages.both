@@ -64,7 +64,6 @@ rfkill
 rp-pppoe
 rsync
 rxvt-unicode
-screenfetch
 scrot
 smartmontools
 speedtouch
@@ -76,6 +75,7 @@ usb_modeswitch
 vim-python3
 virtualbox-guest-modules
 virtualbox-guest-utils
+virtualbox-host-modules
 vpnc
 w3m
 wget
@@ -85,6 +85,9 @@ wvdial
 xf86-video-ati
 xf86-video-intel
 xf86-video-nouveau
+xf86-video-vmware
+xf86-video-fbdev
+xf86-video-vesa
 xl2tpd
 xorg-xinit
 xorg-server
